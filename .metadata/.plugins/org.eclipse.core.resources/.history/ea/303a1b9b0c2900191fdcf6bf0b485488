@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movie-Update</title>
+</head>
+<body>
+<a href="index.jsp">Home</a>
+<form action="movie" method="get">
+<input type="submit" value="Show All Movies">
+</form>
+<a href="addMovie.jsp">Add Movie</a>
+<% String id = (String)request.getAttribute("id");
+String name = (String)request.getAttribute("id");
+String genre = (String)request.getAttribute("id"); %>
+<p></p>
+</body>
+</html>

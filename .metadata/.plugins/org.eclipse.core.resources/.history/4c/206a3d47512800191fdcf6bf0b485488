@@ -1,0 +1,30 @@
+package com.stackroute.domain;
+
+public class Movie {
+
+	private String movieid;
+	private String movieName;
+	private String movieGenre;
+	public String getMovieid() {
+		return movieid;
+	}
+	public void setMovieid(String movieid) {
+		this.movieid = movieid;
+	}
+	public String getMovieName() {
+		return movieName;
+	}
+	public void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+	public String getMovieGenre() {
+		return movieGenre;
+	}
+	public void setMovieGenre(String movieGenre) {
+		this.movieGenre = movieGenre;
+	}
+	
+	
+	
+	
+}

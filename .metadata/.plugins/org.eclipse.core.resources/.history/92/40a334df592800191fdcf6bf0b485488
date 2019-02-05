@@ -1,0 +1,18 @@
+<%@page import="com.stackroute.domain.Movie , java.util.List" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MovieList</title>
+</head>
+<body>
+<h1>Here is/are the List of all the movies you have saved:</h1>
+
+<%
+List<Movie> movies = request.getAttribute("movieList");
+%>
+
+</body>
+</html>

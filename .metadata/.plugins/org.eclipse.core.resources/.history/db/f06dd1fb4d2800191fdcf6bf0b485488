@@ -1,0 +1,12 @@
+<html>
+<body>
+<h2>Hello Movie Enthusists!!</h2>
+<form action="postMovie">
+MovieId: <input type="text" name="mId">
+MovieName: <input type="text" name="mName">
+Genre: <input type="text" name="genre">
+<input type="submit">
+
+</form>
+</body>
+</html>

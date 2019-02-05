@@ -1,0 +1,33 @@
+<%@page import="com.stackroute.domain.Movie , java.util.List" %>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MovieList</title>
+</head>
+<body>
+<h1>Here is/are the List of all the movies you have saved:</h1>
+
+<%
+List movies = (List)request.getAttribute("MovieList");
+String a=(String)request.getAttribute("Check");
+out.println(a);
+%>
+
+<p>"${a}"</p>
+<table>
+  <c:forEach items="${movies}" var="moviesTemp">
+    <tr>
+      <td><c:out value="${moviesTemp.movieid}" /></td>
+      <td><c:out value="${moviesTemp.movieName}" /></td>
+      <td><c:out value="${moviesTemp.movieGenre}" /></td>
+    </tr>
+  </c:forEach>
+</table>
+
+
+</body>
+</html>

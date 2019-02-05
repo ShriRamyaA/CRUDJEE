@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/JNDI_JDBC" docBase="JNDI_JDBC">
+
+ <Resource name="jdbc/ds1" 
+   auth="Container" type="javax.sql.DataSource" 
+           url="jdbc:mysql://localhost:3306/mysql" 
+           username="shri" password="root123"
+         driverClassName="com.mysql.jdbc.Driver" 
+  maxActive="20" maxIdle="10"/>
+</Context> 
+
+spring.datasource.url=jdbc:mysql://localhost:3306/mysql
+spring.datasource.username=shri
+spring.datasource.password=root123

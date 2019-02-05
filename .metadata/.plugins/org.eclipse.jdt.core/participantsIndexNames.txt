@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/home/user/Desktop/crudj2e/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/866049888.index
+/CRUDJ2E/src/main/resources
+/home/user/Desktop/crudj2e/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1422815206.index
+/CRUDJ2E/src/main/java
